@@ -1,6 +1,6 @@
 {
   "name": "nextjs-antd-breadcrumbs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "source": "src/index.tsx",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
