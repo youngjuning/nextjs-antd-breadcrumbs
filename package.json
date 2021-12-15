@@ -6,6 +6,12 @@
   "module": "dist/index.modern.js",
   "unpkg": "dist/index.umd.js",
   "types": "dist/index.d.ts",
+  "keywords": [
+    "react",
+    "antd",
+    "next",
+    "breadcrumbs"
+  ],
   "files": [
     "dist"
   ],
@@ -40,22 +46,26 @@
   "gitHooks": {
     "commit-msg": "commitlint -e -V"
   },
-  "dependencies": {
-    "antd": "4.17.3",
-    "next": "12.0.7",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+  "peerDependencies": {
+    "antd": "^4.17.3",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@types/node": "16.11.13",
     "@types/react": "17.0.37",
+    "antd": "^4.17.3",
     "commitizen": "^4.2.4",
     "commitlint-config-cz": "^0.13.2",
     "cz-customizable": "^6.3.0",
     "eslint": "8.4.1",
     "eslint-config-next": "12.0.7",
     "microbundle-crl": "^0.13.11",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "standard-version": "^9.3.2",
     "typescript": "4.5.4",
     "yorkie": "^2.0.0"

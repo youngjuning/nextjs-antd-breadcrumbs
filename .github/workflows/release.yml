@@ -16,7 +16,7 @@ jobs:
       - uses: c-hive/gha-yarn-cache@v2
 
       - name: Install Dependencies
-        run: yarn --non-interactive --silent --ignore-scripts --production=false
+        run: yarn --non-interactive --silent --ignore-scripts
       - name: Npm Publish
         uses: JS-DevTools/npm-publish@v1
         with:
