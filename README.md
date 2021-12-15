@@ -1,6 +1,6 @@
-# nextjs--antd-breadcrumbs
+# nextjs-antd-breadcrumbs
 
-> A dynamic, highly customizable breadcrumbs component for Next.js
+> A antd-based breadcrumbs component for Next.js
 
 [![NPM](https://img.shields.io/npm/v/nextjs-antd-breadcrumbs.svg)](https://www.npmjs.com/package/nextjs-antd-breadcrumbs)
 
