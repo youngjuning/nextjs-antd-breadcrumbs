@@ -11,11 +11,14 @@ export interface IBreadcrumbs {
 export interface IBreadcrumbProps {
   omitRootLabel?: boolean;
   rootLabel?: string;
+  style?: React.CSSProperties;
+  className?: string;
 }
 
 const Breadcrumbs: React.FunctionComponent<IBreadcrumbProps> = ({
   omitRootLabel,
   rootLabel,
+  ...omitProps
 }) => {
   let router = useRouter();
   const [breadcrumbs, setBreadcrumbs] = useState<Array<IBreadcrumbs> | null>(null);
@@ -41,7 +44,7 @@ const Breadcrumbs: React.FunctionComponent<IBreadcrumbProps> = ({
   }
 
   return (
-    <Breadcrumb>
+    <Breadcrumb {...omitProps}>
       {!omitRootLabel && (
         <Breadcrumb.Item key={rootLabel}>
           <Link href="/">
