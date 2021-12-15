@@ -10,6 +10,7 @@
     "start": "next start",
     "lint": "next lint",
     "commit": "git cz",
+    "prepublishOnly": "yarn build",
     "release-it": "standard-version"
   },
   "config": {
